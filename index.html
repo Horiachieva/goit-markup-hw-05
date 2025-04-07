@@ -424,72 +424,6 @@
       </section>
     </main>
 
-    <div class="modal-overlay">
-      <div class="modal">
-        <div class="close-background">
-          <svg class="close-icons" width="8" height="8">
-            <use
-              class="close-icons-img"
-              href="./images/icons.svg#icon-close-black"
-            ></use>
-          </svg>
-        </div>
-        <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form class="feedback">
-          <div class="container-name">
-            <label class="feedback-name">
-              Name
-              <input
-                class="feedback-name-text"
-                type="text"
-                name="name"
-                autofocus
-              />
-            </label>
-            <svg class="icon-person-black" width="8" height="8">
-              <use
-                class="close-icons-img"
-                href="./images/icons.svg#icon-person-black"
-              ></use>
-            </svg>
-          </div>
-
-          <label class="feedback-phone">
-            Phone
-            <input class="feedback-phone-number" type="number" name="phone" />
-          </label>
-          <label class="feedback-email">
-            Email
-            <input class="feedback-email-adress" type="email" name="email" />
-          </label>
-          <label class="feedback-comment">
-            Comment
-            <textarea
-              class="feedback-comment-text"
-              name="comment"
-              rows="5"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-
-          <label class="feedback-policy">
-            <input
-              class="checkbox-policy"
-              type="checkbox"
-              name="policy"
-              value="acceptance"
-            />
-            <p class="checkbox-text">
-              I accept the terms and conditions of the
-              <a class="checkbox-link" href="">&nbsp;Privacy Policy</a>
-            </p>
-          </label>
-
-          <button class="send-button" type="submit">Send</button>
-        </form>
-      </div>
-    </div>
-
     <footer class="footer">
       <div class="container">
         <div class="footer-logo-text">
@@ -538,5 +472,72 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="close-background">
+          <svg class="close-icons" width="8" height="8">
+            <use
+              class="close-icons-img"
+              href="./images/icons.svg#icon-close-black"
+            ></use>
+          </svg>
+        </div>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="feedback">
+          <div class="container-name">
+            <label class="feedback-name">
+              Name
+              <input
+                class="feedback-name-text"
+                type="text"
+                name="name"
+                autofocus
+              />
+            </label>
+            <svg class="icon-person-black" width="8" height="8">
+              <use
+                class="close-icons-img"
+                href="./images/icons.svg#icon-person-black"
+              ></use>
+            </svg>
+          </div>
+
+          <label class="feedback-phone">
+            Phone
+            <input class="feedback-phone-number" type="number" name="phone" />
+          </label>
+          <label class="feedback-email">
+            Email
+            <input class="feedback-email-adress" type="email" name="email" />
+          </label>
+          <label class="feedback-comment">
+            Comment
+            <textarea
+              class="feedback-comment-text"
+              name="comment"
+              rows="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+
+          <div class="feedback-policy">
+            <input
+              class="checkbox-policy"
+              type="checkbox"
+              name="policy"
+              value="acceptance"
+            />
+
+            <label class="checkbox-text" for="policy">
+              I accept the terms and conditions of the
+              <a class="checkbox-link" href="">&nbsp;Privacy Policy</a>
+            </label>
+          </div>
+
+          <button class="send-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
