@@ -615,8 +615,7 @@ header .container {
   position: relative;
 }
 
-.feedback-label,
-.feedback-comment {
+.feedback-label {
   display: flex;
   flex-direction: column;
   margin-bottom: 4px;
@@ -716,6 +715,10 @@ header .container {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+}
+
+.checkbox-text span {
+  display: inline-flex;
 }
 
 .checkbox-policy:checked + .checkbox-text span {
