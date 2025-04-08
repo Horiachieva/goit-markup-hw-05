@@ -697,7 +697,7 @@ header .container {
 }
 
 .checkbox-text {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -717,10 +717,6 @@ header .container {
   margin-right: 8px;
 }
 
-.checkbox-text span {
-  display: inline-flex;
-}
-
 .checkbox-policy:checked + .checkbox-text span {
   background-color: #404bbf;
   border: none;
@@ -729,6 +725,8 @@ header .container {
 
 .checkbox-link {
   color: #4d5ae5;
+  white-space: nowrap;
+  display: inline;
 }
 
 .send-button {
