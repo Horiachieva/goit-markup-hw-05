@@ -431,12 +431,12 @@ header .container {
 }
 
 .social-media-text {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
 }
 
 .contact-details-footer {
@@ -464,18 +464,18 @@ header .container {
   background-color: #31d0aa;
 }
 
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 8px;
-}
-
-.subscribe-email-and-button {
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .subscribe-email {
@@ -484,32 +484,41 @@ header .container {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #2e2f42;
-  padding: 8px 16px;
-  margin-right: 24px;
-}
-
-.subscribe-email::placeholder {
-  font-weight: 400;
+  padding-left: 16px;
+  background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
+.subscribe-email::placeholder {
+  color: #fff;
+}
+
 .button-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   border: none;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  cursor: pointer;
+}
+
+.icon-letter {
+  margin-left: 16px;
+  fill: #fff;
 }
 
 .modal-overlay {
