@@ -696,12 +696,6 @@ header .container {
   color: #8e8f99;
 }
 
-.checkbox-text {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .icon-checkbox-cont {
   width: 16px;
   height: 16px;
